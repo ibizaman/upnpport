@@ -66,7 +66,7 @@ After=network.target
 [Service]
 User=upnpport
 Group=upnpport
-ExecStart=/usr/bin/upnpport
+ExecStart=/usr/bin/upnpport run
 
 [Install]
 WantedBy=default.target
