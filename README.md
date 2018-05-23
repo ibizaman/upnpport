@@ -5,7 +5,7 @@ Maintains port forwarding in UPnP compatible routers.
 ## Install
 
 ```
-pip install upnpport
+pip install UPnPPort
 ```
 
 This installs a script called `upnpport`.
