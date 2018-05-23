@@ -114,7 +114,6 @@ def main():
     parser_run.add_argument(
         '--config_files',
         type=lambda v: [Path(p) for p in v.split(',')],
-        required=True,
         default=','.join(str(p) for p in DEFAULT_CONFIG_FILES),
         help="Location of config files, last one found takes precendence, defaults to {}.".format(
             ', '.join(str(p) for p in DEFAULT_CONFIG_FILES)))
