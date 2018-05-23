@@ -174,7 +174,7 @@ def open_ports(rules):
         if 'external_port' in rule:
             command += [str(rule['external_port'])]
         command += [rule['protocol']]
-        #call(*command)
+        call(*command)
 
 
 def get_existing_rules():
