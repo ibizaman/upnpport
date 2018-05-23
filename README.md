@@ -67,6 +67,7 @@ After=network.target
 User=upnpport
 Group=upnpport
 ExecStart=/usr/bin/upnpport run
+ExecReload=/bin/kill -s usr1 $MAINPID
 
 [Install]
 WantedBy=default.target
