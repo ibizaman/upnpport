@@ -26,7 +26,7 @@ with _open(path.join(HERE, 'README.md'), encoding='utf-8') as f:
             'console_scripts': ['{0}={0}.__main__:main'.format(PACKAGE.lower())],
         },
         install_requires=[
-            'PyYAML == 5.1',
+            'PyYAML == 5.4',
         ],
         extras_require={
             'dev': [
